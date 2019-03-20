@@ -1,6 +1,6 @@
 1.导入maven项目
-2.安装MySQL5.7.25
-3.安装redis
+2.安装MySQL5.7.25,需配置my.ini文件,root密码默认是mysql
+3.安装redis,解压后用命令行redis-server redis.windows.conf就行
 4.找到入口类/nmgzt_xiaofang/src/main/java/cc/mrbird/Application.java以java application启动即可
 5.使用浏览器访问http://localhost:8080/
 6.用户名admin,密码123456
